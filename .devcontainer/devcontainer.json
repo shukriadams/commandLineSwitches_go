@@ -1,0 +1,7 @@
+{
+    "name": "commandlineswitches_go",
+    "extensions": [
+        "golang.go"
+    ],
+    "dockerFile": "Dockerfile"
+}
