@@ -1,7 +1,25 @@
 {
     "name": "commandlineswitches_go",
-    "extensions": [
-        "golang.go"
-    ],
+    "customizations": {
+    "vscode": {
+      "extensions": ["golang.go"],
+      "settings": {
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "explorer.confirmDragAndDrop": false,
+        "editor.inlineSuggest.edits.allowCodeShifting": "never",
+        "editor.inlineSuggest.edits.renderSideBySide": "never",
+        "github.copilot.nextEditSuggestions.fixes": false,
+        "github.copilot.nextEditSuggestions.enabled": false,
+        "editor.allowVariableFonts": false,
+        "github.copilot.chat.codeGeneration.instructions": [
+          {
+            "text": "go home AI you drunk"
+          }
+        ]
+      }
+    }
+  },
     "dockerFile": "Dockerfile"
 }
